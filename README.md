@@ -12,8 +12,10 @@ After importing into Alfred, set these [workflow variables](https://www.alfredap
 
 ```
 USERNAME = <your GitHub username>
-ACCESS_TOKEN = <a personal access token with Full control of private repositories scope>
+ACCESS_TOKEN = <an optional personal access token>
 ```
+
+If you'd like to navigate your work on private repos, a token with *Full control of private repositories* scope is required.
 
 ## Usage
 
