@@ -1,0 +1,13 @@
+{
+  "name": "github-alfred",
+  "version": "1.0.0",
+  "description": "Nagivate GitHub within Alfred",
+  "main": "index.js",
+  "repository": "git@github.com:hellovietduc/github-alfred.git",
+  "author": "hellovietduc",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.10.0",
+    "axios": "^0.21.1"
+  }
+}
