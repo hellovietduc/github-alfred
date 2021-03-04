@@ -1,6 +1,6 @@
 {
   "name": "github-alfred",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nagivate GitHub within Alfred",
   "main": "index.js",
   "repository": "git@github.com:hellovietduc/github-alfred.git",
