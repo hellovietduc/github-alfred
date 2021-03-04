@@ -24,9 +24,9 @@ const graphql = `{
 }`;
 
 const filter = (item, input) => {
-  return (
-    item.title.includes(input) || item.repository.nameWithOwner.includes(input)
-  );
+  const title = item.title.toLowerCase();
+  const nameWithOwner = item.repository.nameWithOwner.toLowerCase();
+  return title.includes(input) || nameWithOwner.includes(input);
 };
 
 const map = (o) => {

@@ -16,10 +16,12 @@ const graphql = `{
   }
 }`;
 
-const filter = (item, input) => {
+const filter = ({ node }, input) => {
+  const nameWithOwner = node.nameWithOwner.toLowerCase();
+  const description = node.description && node.description.toLowerCase();
   return (
-    item.node.nameWithOwner.includes(input) ||
-    (item.node.description && item.node.description.includes(input))
+    nameWithOwner.includes(input) ||
+    (description && description.includes(input))
   );
 };
 
