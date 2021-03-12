@@ -15,7 +15,7 @@ USERNAME = <your GitHub username>
 ACCESS_TOKEN = <an optional personal access token>
 ```
 
-If you'd like to navigate your work on private repos, a token with *Full control of private repositories* scope is required.
+If you'd like to navigate your work on private repos, a [token](https://github.com/settings/tokens) with *Full control of private repositories* (`repo`) scope is required. Otherwise, a token with `public_repo` scope is enough.
 
 ## Usage
 
@@ -24,7 +24,7 @@ If you'd like to navigate your work on private repos, a token with *Full control
 | Search open pull requests | `pr <search terms>`  |
 | Search starred repos      | `str <search terms>` |
 
-Press Enter to open in your default browser. Press Cmd + Enter to copy URL to clipboard.
+Press `Enter` to open in your default browser. Press `Cmd` + `Enter` to copy URL to clipboard.
 
 ## License
 
