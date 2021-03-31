@@ -19,10 +19,11 @@ If you'd like to navigate your work on private repos, a [token](https://github.c
 
 ## Usage
 
-| Functionality             | Keyword              |
-| ------------------------- | -------------------- |
-| Search open pull requests | `pr <search terms>`  |
-| Search starred repos      | `str <search terms>` |
+| Functionality               | Keyword              |
+| --------------------------- | -------------------- |
+| Search open pull requests   | `pr <search terms>`  |
+| Search merged pull requests | `prm <search terms>` |
+| Search starred repos        | `str <search terms>` |
 
 Press `Enter` to open in your default browser. Press `Cmd` + `Enter` to copy URL to clipboard.
 

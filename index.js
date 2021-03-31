@@ -1,9 +1,11 @@
 const alfy = require('alfy');
 const openPRsCmd = require('./open_prs');
+const mergedPRsCmd = require('./merged_prs');
 const starsCmd = require('./stars');
 
 const commands = {
   open_prs: openPRsCmd,
+  merged_prs: mergedPRsCmd,
   stars: starsCmd,
 };
 
