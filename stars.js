@@ -26,7 +26,7 @@ const filter = ({ node }, input) => {
 };
 
 const map = ({ node: o }) => {
-  const subtitle = `⭐️ ${o.stargazerCount} ${o.description}`;
+  const subtitle = `⭐️ ${o.stargazerCount} | ${o.description}`;
   return {
     title: o.nameWithOwner,
     subtitle,

@@ -29,11 +29,10 @@ const filter = (item, input) => {
 };
 
 const map = (o) => {
-  const title = `${o.repository.nameWithOwner}: ${o.title}`;
   const mergedAt = getRelativeTime(o.mergedAt);
-  const subtitle = `#${o.number} merged ${mergedAt}`;
+  const subtitle = `${o.repository.nameWithOwner}: #${o.number} merged ${mergedAt}`;
   return {
-    title,
+    title: o.title,
     subtitle,
     arg: o.url,
   };

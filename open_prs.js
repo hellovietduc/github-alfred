@@ -30,12 +30,11 @@ const filter = (item, input) => {
 };
 
 const map = (o) => {
-  const title = `${o.repository.nameWithOwner}: ${o.title}`;
   const createdAt = getRelativeTime(o.createdAt);
   const updatedAt = getRelativeTime(o.updatedAt);
-  const subtitle = `#${o.number} opened ${createdAt} - updated ${updatedAt}`;
+  const subtitle = `${o.repository.nameWithOwner}: #${o.number} opened ${createdAt} - updated ${updatedAt}`;
   return {
-    title,
+    title: o.title,
     subtitle,
     arg: o.url,
   };
